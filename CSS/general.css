@@ -1,0 +1,74 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  background-image: url(../imagenes/header.png);
+  /*background-size: 100%;*/
+  background-size: cover;
+}
+
+.wrapper{
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+.content {
+  /*display: table-row;  /* height is dynamic, and will expand... */
+  height: 100%;        /* ...as content is added (won't scroll) */
+  position: relative;
+  top: 63px;
+}
+.footer {
+  display: table-row;
+}
+.caption{
+    border: 1px solid black;
+    padding: 31px;
+}
+.requicito{
+    border-top: 3px solid beige;
+}
+
+.Barra{
+  width: 100vw;
+}
+
+footer{
+  background-color: #EEE;
+  border-top: 10px solid #BBB;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  height: 76px;
+  margin-top: -76px;
+  display: table-row;
+}
+
+.box-principal{
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.titulo{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.imagen-avatar{
+  width: 50px;
+  height: 50px;
+}
+
+.EstudiantebutonCrear{
+  float:right;
+  color:black;
+  border: none;
+  padding: 0.5em;
+  font-size: 15px;
+}
+
+
+	
